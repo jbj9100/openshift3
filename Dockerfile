@@ -2,7 +2,7 @@ FROM quay.io/projectquay/golang:1.17
 
 ADD src/hello-world.go hello-world.go
 
-ENV MESSAGE "Welcome! You can change this message by replacing the MESSAGE environment variable."
+ENV MESSAGE "Welcome!!!!!!!1 You can change this message by replacing the MESSAGE environment variable."
 ENV HOME /go
 
 RUN chgrp -R 0 /go && chmod -R g+rwX /go
